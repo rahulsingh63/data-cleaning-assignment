@@ -1,54 +1,39 @@
-🛒 Superstore Sales Analysis — SQL
-📌 Objective
-Analyze Superstore sales data using MySQL Workbench to extract business insights through SQL filtering, aggregation, and trend analysis.
+  Superstore Sales Analysis Using SQL
 
-This is a Week 2 Assignment of the Celebal Technologies Internship Program.
+This project is based on the Superstore Sales dataset and was completed as a part of my Week 2 assignment during the Celebal Technologies Data Engineering Internship.
 
-📂 Dataset
-Source: Kaggle — Superstore Dataset
-Rows: 9,994 | Columns: 21
-Period: January 2014 – December 2017
-Regions: East, West, South, Central
-🛠️ Tools Used
-MySQL 9.0
-MySQL Workbench
-Python (pandas + mysql-connector) — for CSV import
-📁 Repository Structure
-superstore-sql-analysis/
-│
-├── superstore_analysis.sql     ← Main SQL script
-├── README.md
-│
-├── data/
-│   └── Sample - Superstore.csv
-│
-└── results/
-    ├── region_sales.csv
-    ├── top_products.csv
-    └── monthly_trend.csv
-📊 Analysis Performed
-Step	Task	Description
-1	Setup	Created database, table, imported CSV
-2	Explore	Schema review, sample data, NULL checks
-3	WHERE Filters	Filter by region, category, date, sales
-4	GROUP BY	Aggregations by region, category, segment
-5	Sort & Limit	TOP 10 products, cities, sub-categories
-6	Business Cases	Monthly trends, top customers, discount impact
-7	Validation	Row counts, NULL audit, data quality checks
-💡 Key Insights
-🌍 West region generates the highest total sales (~32% of revenue)
-💻 Technology is the most profitable category
-📉 Discounts above 20% consistently result in net losses
-📅 Q4 (Oct–Dec) is the peak sales quarter every year
-🖨️ Copiers & Phones are top revenue sub-categories
-👥 Consumer segment places the most orders
-🚚 Standard Class is the most used shipping mode
-🚀 How to Run
-Clone this repository
-Import CSV using the Python script:
-pip install pandas mysql-connector-python
-python import.py
-Open superstore_analysis.sql in MySQL Workbench
-Run queries section by section (Step 2 → Step 7)
-👩‍💻 Author
-Rahul Singh Celebal Technologies — Data Engineering Internship
+#Tools Used
+
+* MySQL Workbench
+* SQL
+
+Dataset
+
+* Superstore Sales Dataset
+* 9,994 rows and 21 columns
+* Data from 2014 to 2017
+
+ What I Did
+
+* Imported the dataset into MySQL.
+* Explored the data and checked for missing values.
+* Used WHERE clause to filter records.
+* Applied GROUP BY and aggregate functions for analysis.
+* Found top-selling products and regions.
+* Analyzed monthly sales trends.
+* Studied the impact of discounts on profit.
+
+ Key Findings
+
+* West region had the highest sales.
+* Technology category generated the highest profit.
+* High discounts often reduced profit.
+* Sales were highest during the last quarter of the year.
+* Consumer segment contributed the most orders.
+
+ Author
+
+Rahul Singh
+Data Engineering Intern, Celebal Technologies
+
+
